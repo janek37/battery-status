@@ -1,0 +1,17 @@
+BATTERY STATUS INDICATOR FOR GNOME CLASSIC
+==========================================
+
+Just run
+$ python battery_status.py
+
+You can add it to your startup programs to load automatically after each login.
+
+The source is simple and you're welcome to meddle with it.
+
+battery.py is a module for checking the battery state etc.
+
+Icons are converted from standard Ubuntu icons (Mono Dark), only modified to render nicely in gnome-panel. I replaced
+'height="24" width="32"'
+with
+'height="32" width="32" transform="translate(0, 4)"'
+in the <svg> element.
