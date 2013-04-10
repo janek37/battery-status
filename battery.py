@@ -15,7 +15,7 @@ def battery_state():
   if len(parts) > 2:
     hours, minutes = (int(part) for part in parts[2].split(':', 2)[:2])
   else:
-    hours = minutes = None
+    hours = minutes = 0
   return state, percent, hours, minutes
 
 def state():
